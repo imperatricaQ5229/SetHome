@@ -1,0 +1,20 @@
+name: SetHome
+main: com.imperatrica.sethome.Main
+version: "1.0.0"
+api: ["1.0.0"]
+author: imperatrica
+
+commands:
+  sethome:
+    description: "Setting a point for the house"
+    permission: imperatrica.sethome
+  home:
+    description: "Teleport to the point of the home"
+    permission: imperatrica.home
+permissions:
+  imperatrica.sethome:
+    description: "Setting a point for the house"
+    default: true
+  imperatrica.home:
+    description: "Teleport to the point of the home"
+    default: true
